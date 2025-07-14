@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import LeftSide from './components/LeftSide';
 import RightSide from './components/RightSide';
 
@@ -13,6 +14,8 @@ function App() {
             <RightSide />
           </main>
         </div>
+
+        <Footer />
       </div>
     </div>
   );
